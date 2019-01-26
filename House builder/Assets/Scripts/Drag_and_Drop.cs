@@ -5,9 +5,12 @@ using UnityEngine;
 public class Drag_and_Drop : MonoBehaviour
 {
     public GameObject Room_block;
+    public float Room_length;
+    public float Room_height;
     private Vector3 prev_position;
     private bool is_not_placed = true;
     private bool allowed_to_place = true;
+    private bool trigerrered = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +22,6 @@ public class Drag_and_Drop : MonoBehaviour
     void Update()
     {
         CheckForHeight();
-        ObjectColor(); //needs upgrading
         if (is_not_placed)
         {
             BlockPosition(); // object snaping to grid
@@ -34,9 +36,9 @@ public class Drag_and_Drop : MonoBehaviour
         NormalizeMousePosition(ref MouseX, ref MouseY);
         // snaping block to grid
         RoundValues(ref MouseX, ref MouseY); // rounding x and y values to nearest 0.5;
-        if (prev_position != new Vector3(MouseX, MouseY, 0)) //transition between two points
+        if (prev_position != new Vector3(MouseX, MouseY, 0f)) //transition between two points
         {
-            Vector3 destination = new Vector3(MouseX, MouseY, 0);
+            Vector3 destination = new Vector3(MouseX, MouseY, 0f);
             StartCoroutine(MoveToPosition(Room_block.transform, destination, 0.1f));
         }
     }
@@ -47,43 +49,44 @@ public class Drag_and_Drop : MonoBehaviour
         MouseX = (MouseX / Screen.width) * X - (float)X / (float)2;
         MouseY = (MouseY / Screen.height) * Y - (float)Y / (float)2;
     }
-    private void ObjectColor()
-    {
-        if (allowed_to_place)
-        {
-            Room_block.GetComponent<Renderer>().material.color = new Color(0, 1, 0, 1);
-        }
-        else
-        {
-            Room_block.GetComponent<Renderer>().material.color = new Color(1, 0, 0, 1);
-        }
-    }
     private void ObjectPlacement()
     {
         if (Input.GetMouseButtonDown(0) && allowed_to_place) // if left mouse button is pressed place an object
         {
             is_not_placed = false;
-
+            Room_block.AddComponent<Destroy_Room>();
+            Room_block.GetComponent<Destroy_Room>().Room_height = Room_height;
+            Room_block.GetComponent<Destroy_Room>().Room_length = Room_length;
             // do build animations
             Cursor.visible = true;
         }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        allowed_to_place = false;
+        trigerrered = true;
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        allowed_to_place = true;
+        trigerrered = false;
     }
     private void CheckForHeight()
     {
         RaycastHit2D hit;
         int layer_mask = LayerMask.GetMask("Rooms", "Ground");
-        hit = Physics2D.Raycast(Room_block.transform.position, Vector2.down, Mathf.Infinity, layer_mask);
-        if ((hit.distance < 1) && (hit.distance != 0))
+        Vector3 start = Room_block.transform.position - new Vector3(0f, (Room_height - 1) * 0.5f, 0f);
+        hit = Physics2D.CircleCast(start,0.3f, Vector2.down, Mathf.Infinity, layer_mask);
+        if ((hit.distance < 0.1f)&&(hit.collider!=null))
         {
-            allowed_to_place = true;
+            // Debug.Log(hit.distance);
+            // Debug.Log("Not Height");
+            if (!trigerrered)
+            {
+                allowed_to_place = true;
+            }
+            else
+            {
+                allowed_to_place = false;
+            }
         }
         else
         {
@@ -105,19 +108,19 @@ public class Drag_and_Drop : MonoBehaviour
     {
         if (x >= 0)
         {
-            x = (int)x + 0.5f;
+            x = (int)x + 0.5f * ((Room_length ) % 2);
         }
         else
         {
-            x = Mathf.Sign(x) * (Mathf.Abs((int)x) + 0.5f);
+            x = Mathf.Sign(x) * (Mathf.Abs((int)x) + 0.5f * ((Room_length) % 2));
         }
         if (y >= 0)
         {
-            y = (int)y + 0.5f;
+            y = (int)y + 0.5f*(Room_height)%2;
         }
         else
         {
-            y = Mathf.Sign(y) * ((int)Mathf.Abs(y) + 0.5f);
+            y = Mathf.Sign(y) * ((int)Mathf.Abs(y) + 0.5f * ((Room_height) % 2));
         }
     }
 }
