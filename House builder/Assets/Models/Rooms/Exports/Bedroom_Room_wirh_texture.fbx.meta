@@ -1,18 +1,99 @@
 fileFormatVersion: 2
-guid: 072cbb1ada8573f43a86302c8e8c952e
+guid: 636d4d9ebf44ac1489859539c4fe9fe6
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: Material_Carpet
-    2100002: Material
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Carpet
-    7400000: Default Take
-    9500000: //RootNode
-    2186277476908879412: ImportLogs
+    100000: Bed.004
+    100002: //RootNode
+    100004: Cabinet
+    100006: Carpet
+    100008: Carpet.001
+    100010: Cylinder
+    100012: DrawerBase
+    100014: Handle.001
+    100016: Lamp
+    100018: Lamp.001
+    100020: Lamp_stand
+    100022: Overhead_lamp
+    100024: Plane
+    100026: Point
+    100028: Point.001
+    100030: Point.002
+    100032: Point.003
+    100034: Room
+    100036: Wardrobe
+    400000: Bed.004
+    400002: //RootNode
+    400004: Cabinet
+    400006: Carpet
+    400008: Carpet.001
+    400010: Cylinder
+    400012: DrawerBase
+    400014: Handle.001
+    400016: Lamp
+    400018: Lamp.001
+    400020: Lamp_stand
+    400022: Overhead_lamp
+    400024: Plane
+    400026: Point
+    400028: Point.001
+    400030: Point.002
+    400032: Point.003
+    400034: Room
+    400036: Wardrobe
+    2100000: Material_Cabinet
+    2100002: Material_room
+    2100004: Material_Carpet
+    2100006: Material_wardrobe
+    2100008: Material
+    2100010: Material_lamp
+    2100012: Material_Bed.001
+    2100014: Handles
+    2100016: Light_source
+    2300000: Bed.004
+    2300002: Cabinet
+    2300004: Carpet
+    2300006: Carpet.001
+    2300008: Cylinder
+    2300010: DrawerBase
+    2300012: Handle.001
+    2300014: Lamp
+    2300016: Lamp.001
+    2300018: Lamp_stand
+    2300020: Overhead_lamp
+    2300022: Plane
+    2300024: Room
+    2300026: Wardrobe
+    3300000: Bed.004
+    3300002: Cabinet
+    3300004: Carpet
+    3300006: Carpet.001
+    3300008: Cylinder
+    3300010: DrawerBase
+    3300012: Handle.001
+    3300014: Lamp
+    3300016: Lamp.001
+    3300018: Lamp_stand
+    3300020: Overhead_lamp
+    3300022: Plane
+    3300024: Room
+    3300026: Wardrobe
+    4300000: DrawerBase
+    4300002: Plane
+    4300004: Carpet
+    4300006: Wardrobe
+    4300008: Lamp_stand
+    4300010: Overhead_lamp
+    4300012: Bed.004
+    4300014: Lamp.001
+    4300016: Cabinet
+    4300018: Carpet.001
+    4300020: Handle.001
+    4300022: Cylinder
+    10800000: Point
+    10800002: Point.001
+    10800004: Point.002
+    10800006: Point.003
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -66,7 +147,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -93,7 +174,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

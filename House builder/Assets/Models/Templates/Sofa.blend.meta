@@ -1,18 +1,29 @@
 fileFormatVersion: 2
-guid: 072cbb1ada8573f43a86302c8e8c952e
+guid: 2b47111af656c2e4097bd1c872fcdff6
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: Material_Carpet
-    2100002: Material
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Carpet
+    100000: Part_Legs
+    100002: Part_Sofa_Top
+    100004: //RootNode
+    100006: Sofa
+    400000: Part_Legs
+    400002: Part_Sofa_Top
+    400004: //RootNode
+    400006: Sofa
+    2100000: unnamed
+    2100002: Sofa_Material
+    2300000: Part_Legs
+    2300002: Part_Sofa_Top
+    2300004: Sofa
+    3300000: Part_Legs
+    3300002: Part_Sofa_Top
+    3300004: Sofa
+    4300000: Part_Sofa_Top
+    4300002: Part_Legs
+    4300004: Sofa
     7400000: Default Take
     9500000: //RootNode
-    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1

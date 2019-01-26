@@ -1,18 +1,49 @@
 fileFormatVersion: 2
-guid: 072cbb1ada8573f43a86302c8e8c952e
+guid: 54be835e46b0b4a48aea1cf29de0f715
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: Material_Carpet
+    100000: Car
+    100002: //RootNode
+    100004: Part_Car_001
+    100006: Part_Moustache_001
+    100008: Part_Wheel_001
+    100010: Wheel_000
+    100012: Wheel_004
+    100014: Wheel_005
+    400000: Car
+    400002: //RootNode
+    400004: Part_Car_001
+    400006: Part_Moustache_001
+    400008: Part_Wheel_001
+    400010: Wheel_000
+    400012: Wheel_004
+    400014: Wheel_005
+    2100000: unnamed
     2100002: Material
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Carpet
+    2300000: Car
+    2300002: Part_Car_001
+    2300004: Part_Moustache_001
+    2300006: Part_Wheel_001
+    2300008: Wheel_000
+    2300010: Wheel_004
+    2300012: Wheel_005
+    3300000: Car
+    3300002: Part_Car_001
+    3300004: Part_Moustache_001
+    3300006: Part_Wheel_001
+    3300008: Wheel_000
+    3300010: Wheel_004
+    3300012: Wheel_005
+    4300000: Part_Moustache_001
+    4300002: Part_Car_001
+    4300004: Part_Wheel_001
+    4300006: Wheel_005
+    4300008: Wheel_004
+    4300010: Wheel_000
+    4300012: Car
     7400000: Default Take
     9500000: //RootNode
-    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
