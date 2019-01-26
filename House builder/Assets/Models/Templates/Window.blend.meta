@@ -1,17 +1,16 @@
 fileFormatVersion: 2
-guid: 57daf24f6fc6fa84790acde6876d6bd6
+guid: e9dd47d9e59d2a14d849852f2238a897
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Material_wardrobe
+    2100000: unnamed
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Handle_001
+    4300000: Cube
     7400000: Default Take
     9500000: //RootNode
-    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1

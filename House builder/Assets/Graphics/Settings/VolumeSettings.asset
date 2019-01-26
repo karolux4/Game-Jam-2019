@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -20,7 +21,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -32,13 +34,53 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 2
   fogType:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 2
+--- !u!114 &114512203958488552
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 384c4d03a551c44448145f4093304119, type: 3}
+  m_Name: ScreenSpaceReflection
+  m_EditorClassIdentifier: 
+  active: 1
+  depthBufferThickness:
+    m_OverrideState: 0
+    m_Value: 0.01
+    min: 0
+    max: 1
+  screenFadeDistance:
+    m_OverrideState: 0
+    m_Value: 0.1
+    min: 0
+    max: 1
+  minSmoothness:
+    m_OverrideState: 0
+    m_Value: 0.9
+    min: 0
+    max: 1
+  smoothnessFadeStart:
+    m_OverrideState: 0
+    m_Value: 0.9
+    min: 0
+    max: 1
+  reflectSky:
+    m_OverrideState: 0
+    m_Value: 1
+  rayMaxIterations:
+    m_OverrideState: 0
+    m_Value: 32
 --- !u!114 &114527594671542966
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -90,14 +132,15 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2150ee00179b2f4418ea8b21a7e98eea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   colorMode:
     m_OverrideState: 1
     m_Value: 1
@@ -141,7 +184,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -154,6 +198,9 @@ MonoBehaviour:
     m_Value: 0
     min: 0
     max: 360
+  skyIntensityMode:
+    m_OverrideState: 0
+    m_Value: 0
   exposure:
     m_OverrideState: 1
     m_Value: 1.25
@@ -161,6 +208,13 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 1
     min: 0
+  upperHemisphereLuxValue:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  desiredLuxValue:
+    m_OverrideState: 0
+    m_Value: 20000
   updateMode:
     m_OverrideState: 1
     m_Value: 0
@@ -168,19 +222,22 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 0
     min: 0
+  includeSunInBaking:
+    m_OverrideState: 0
+    m_Value: 0
   sunSize:
     m_OverrideState: 1
-    m_Value: 0.04
+    m_Value: 0.2
     min: 0
     max: 1
   sunSizeConvergence:
     m_OverrideState: 1
-    m_Value: 5
+    m_Value: 5.2
     min: 1
     max: 10
   atmosphereThickness:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 0.76
     min: 0
     max: 5
   skyTint:

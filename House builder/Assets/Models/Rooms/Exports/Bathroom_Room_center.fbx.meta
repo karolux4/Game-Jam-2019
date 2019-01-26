@@ -1,16 +1,76 @@
 fileFormatVersion: 2
-guid: 57daf24f6fc6fa84790acde6876d6bd6
+guid: 0796af198c93aab44879c1d7b1a40d19
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: Material_wardrobe
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Handle_001
-    7400000: Default Take
-    9500000: //RootNode
+    100000: Bath
+    100002: Bath.001
+    100004: //RootNode
+    100006: Cabinet
+    100008: Cabinet.001
+    100010: Carpet
+    100012: Carpet.001
+    100014: Mat
+    100016: Mat.001
+    100018: Room
+    100020: Room.001
+    100022: Toilet
+    100024: Toilet.001
+    400000: Bath
+    400002: Bath.001
+    400004: //RootNode
+    400006: Cabinet
+    400008: Cabinet.001
+    400010: Carpet
+    400012: Carpet.001
+    400014: Mat
+    400016: Mat.001
+    400018: Room
+    400020: Room.001
+    400022: Toilet
+    400024: Toilet.001
+    2100000: Material_bath_cabinet
+    2100002: Material_Mat
+    2100004: Material_Carpet
+    2100006: Material_toilet
+    2100008: Material_bath
+    2100010: Material_room
+    2300000: Bath
+    2300002: Bath.001
+    2300004: Cabinet
+    2300006: Cabinet.001
+    2300008: Carpet
+    2300010: Carpet.001
+    2300012: Mat
+    2300014: Mat.001
+    2300016: Room
+    2300018: Room.001
+    2300020: Toilet
+    2300022: Toilet.001
+    3300000: Bath
+    3300002: Bath.001
+    3300004: Cabinet
+    3300006: Cabinet.001
+    3300008: Carpet
+    3300010: Carpet.001
+    3300012: Mat
+    3300014: Mat.001
+    3300016: Room
+    3300018: Room.001
+    3300020: Toilet
+    3300022: Toilet.001
+    4300000: Cabinet.001
+    4300002: Mat.001
+    4300004: Carpet.001
+    4300006: Toilet.001
+    4300008: Bath.001
+    4300010: Room.001
+    4300012: Room
+    4300014: Bath
+    4300016: Toilet
+    4300018: Carpet
+    4300020: Mat
+    4300022: Cabinet
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -65,7 +125,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -92,7 +152,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
