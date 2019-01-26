@@ -1,47 +1,8 @@
 fileFormatVersion: 2
-guid: bd83a082f4db85f49b1a46d6764e7d83
+guid: 2cc187175305c484fa253d553c9278a9
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Bath
-    100002: //RootNode
-    100004: Cabinet
-    100006: Carpet
-    100008: Mat
-    100010: Room
-    100012: Toilet
-    400000: Bath
-    400002: //RootNode
-    400004: Cabinet
-    400006: Carpet
-    400008: Mat
-    400010: Room
-    400012: Toilet
-    2100000: Material_room
-    2100002: Material_bath
-    2100004: Material_toilet
-    2100006: Material_Carpet
-    2100008: Material_Mat
-    2100010: Material_bath_cabinet
-    2300000: Bath
-    2300002: Cabinet
-    2300004: Carpet
-    2300006: Mat
-    2300008: Room
-    2300010: Toilet
-    3300000: Bath
-    3300002: Cabinet
-    3300004: Carpet
-    3300006: Mat
-    3300008: Room
-    3300010: Toilet
-    4300000: Room
-    4300002: Bath
-    4300004: Toilet
-    4300006: Carpet
-    4300008: Mat
-    4300010: Cabinet
-    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -74,7 +35,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.5
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -95,8 +56,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.0025
-    hasPreviousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

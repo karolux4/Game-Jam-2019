@@ -2,6 +2,12 @@ public class SpecialRequest : Request
 {
     public SpecialRequest()
     {
+        
+    }
+    public SpecialRequest(RoomType type)
+    {
+        this.type = type;
+        roomAmount = 1;
     }
 
     public override bool CheckValidity(string[] data)

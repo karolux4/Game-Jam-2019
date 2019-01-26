@@ -5,6 +5,7 @@ using UnityEngine;
 public class Drag_and_Drop : MonoBehaviour
 {
     public GameObject Room_block;
+    public GameObject level_information;
     public float Room_length;
     public float Room_height;
     private Vector3 prev_position;
@@ -38,14 +39,15 @@ public class Drag_and_Drop : MonoBehaviour
         RoundValues(ref MouseX, ref MouseY); // rounding x and y values to nearest 0.5;
         if (prev_position != new Vector3(MouseX, MouseY, 0f)) //transition between two points
         {
+            prev_position = new Vector3(MouseX, MouseY, 0f);
             Vector3 destination = new Vector3(MouseX, MouseY, 0f);
             StartCoroutine(MoveToPosition(Room_block.transform, destination, 0.1f));
         }
     }
     private void NormalizeMousePosition(ref float MouseX, ref float MouseY)
     {
-        float X = 20.4f;
-        float Y = 11.4f;
+        float X = 17.8f;
+        float Y = 10f;
         MouseX = (MouseX / Screen.width) * X - (float)X / (float)2;
         MouseY = (MouseY / Screen.height) * Y - (float)Y / (float)2;
     }
@@ -57,6 +59,9 @@ public class Drag_and_Drop : MonoBehaviour
             Room_block.AddComponent<Destroy_Room>();
             Room_block.GetComponent<Destroy_Room>().Room_height = Room_height;
             Room_block.GetComponent<Destroy_Room>().Room_length = Room_length;
+            Room_block.GetComponent<Destroy_Room>().level_information = level_information;
+            level_information.GetComponent<Level_information>().buildings.room_amount++;
+            level_information.GetComponent<Level_information>().buildings.rooms.Add(Room_block);
             // do build animations
             Cursor.visible = true;
         }

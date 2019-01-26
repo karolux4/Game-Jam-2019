@@ -5,6 +5,7 @@ using UnityEngine;
 public class Destroy_Room : MonoBehaviour
 {
     public bool DeleteIsOn = true;
+    public GameObject level_information;
     public float Room_length;
     public float Room_height;
     // Start is called before the first frame update
@@ -30,11 +31,15 @@ public class Destroy_Room : MonoBehaviour
             {
                 if (hit.collider.gameObject.layer!=10)
                 {
+                    level_information.GetComponent<Level_information>().buildings.room_amount--;
+                    level_information.GetComponent<Level_information>().buildings.rooms.Remove(this.gameObject);
                     Destroy(this.gameObject);
                 }
             }
             else
             {
+                level_information.GetComponent<Level_information>().buildings.room_amount--;
+                level_information.GetComponent<Level_information>().buildings.rooms.Remove(this.gameObject);
                 Destroy(this.gameObject);
             }
         }
