@@ -3,6 +3,113 @@ guid: 0ca50f1a1d3f2e54c9606c67db527f1c
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: Cabinet
+    100002: Cabinet_001
+    100004: Cabinet_002
+    100006: Chair
+    100008: Chair_001
+    100010: Chair_002
+    100012: Cube
+    100014: Cube_002
+    100016: Cube_003
+    100018: Cube_005
+    100020: Cylinder
+    100022: Cylinder_001
+    100024: //RootNode
+    100026: Oven
+    100028: Plane
+    100030: Plane_001
+    100032: Sphere
+    100034: Sphere_001
+    100036: Sphere_002
+    400000: Cabinet
+    400002: Cabinet_001
+    400004: Cabinet_002
+    400006: Chair
+    400008: Chair_001
+    400010: Chair_002
+    400012: Cube
+    400014: Cube_002
+    400016: Cube_003
+    400018: Cube_005
+    400020: Cylinder
+    400022: Cylinder_001
+    400024: //RootNode
+    400026: Oven
+    400028: Plane
+    400030: Plane_001
+    400032: Sphere
+    400034: Sphere_001
+    400036: Sphere_002
+    2100000: Material_room
+    2100002: Material_fridge
+    2100004: Material_Chair
+    2100006: Material_apple
+    2100008: Material_003
+    2100010: Material_patoriku
+    2100012: Material
+    2100014: Material_001
+    2100016: Material_002
+    2100018: Material_apple_001
+    2100020: Material_apple_002
+    2100022: Material_004
+    2100024: Material_005
+    2300000: Cabinet
+    2300002: Cabinet_001
+    2300004: Cabinet_002
+    2300006: Chair
+    2300008: Chair_001
+    2300010: Chair_002
+    2300012: Cube
+    2300014: Cube_002
+    2300016: Cube_003
+    2300018: Cube_005
+    2300020: Cylinder
+    2300022: Cylinder_001
+    2300024: Oven
+    2300026: Plane
+    2300028: Plane_001
+    2300030: Sphere
+    2300032: Sphere_001
+    2300034: Sphere_002
+    3300000: Cabinet
+    3300002: Cabinet_001
+    3300004: Cabinet_002
+    3300006: Chair
+    3300008: Chair_001
+    3300010: Chair_002
+    3300012: Cube
+    3300014: Cube_002
+    3300016: Cube_003
+    3300018: Cube_005
+    3300020: Cylinder
+    3300022: Cylinder_001
+    3300024: Oven
+    3300026: Plane
+    3300028: Plane_001
+    3300030: Sphere
+    3300032: Sphere_001
+    3300034: Sphere_002
+    4300000: Plane
+    4300002: Cube
+    4300004: Chair_001
+    4300006: Sphere
+    4300008: Cabinet
+    4300010: Cube_002
+    4300012: Cylinder
+    4300014: Cube_003
+    4300016: Chair
+    4300018: Cube_005
+    4300020: Cylinder_001
+    4300022: Sphere_001
+    4300024: Sphere_002
+    4300026: Plane_001
+    4300028: Cabinet_001
+    4300030: Chair_002
+    4300032: Oven
+    4300034: Cabinet_002
+    7400000: Default Take
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -57,7 +164,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

@@ -3,6 +3,35 @@ guid: 300849f629b3ee8469f2ab0a5795ca04
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: //RootNode
+    100002: Room_Bordered
+    100004: Room_Bordered_2x1
+    100006: Room_Bordered_3x1
+    100008: Room_Borderless
+    400000: //RootNode
+    400002: Room_Bordered
+    400004: Room_Bordered_2x1
+    400006: Room_Bordered_3x1
+    400008: Room_Borderless
+    2100000: Material_room
+    2100002: Material_room_001
+    2300000: //RootNode
+    2300002: Room_Bordered
+    2300004: Room_Bordered_2x1
+    2300006: Room_Bordered_3x1
+    2300008: Room_Borderless
+    3300000: //RootNode
+    3300002: Room_Bordered
+    3300004: Room_Bordered_2x1
+    3300006: Room_Bordered_3x1
+    3300008: Room_Borderless
+    4300000: Plane
+    4300002: Room_Bordered_3x1
+    4300004: Room_Bordered_2x1
+    4300006: Room_Bordered
+    4300008: Room_Borderless
+    7400000: Default Take
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -57,7 +86,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
