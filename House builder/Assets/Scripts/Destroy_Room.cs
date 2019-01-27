@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Destroy_Room : MonoBehaviour
 {
-    public bool DeleteIsOn = true;
+    //public bool DeleteIsOn { get; set; }
     public GameObject level_information;
     public float Room_length;
     public float Room_height;
@@ -17,11 +17,11 @@ public class Destroy_Room : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //DeleteIsOn = level_information.GetComponent<Level_information>().delete_mode;
     }
     private void OnMouseOver()
     {
-        if(Input.GetMouseButtonDown(0)&&(DeleteIsOn))
+        if(Input.GetMouseButtonDown(0)&&(level_information.GetComponent<Level_information>().delete_mode))
         {
             RaycastHit2D hit;
             Vector3 start = this.gameObject.transform.position+new Vector3(0f,Room_height,0f);

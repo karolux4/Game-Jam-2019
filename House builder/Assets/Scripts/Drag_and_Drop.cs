@@ -60,6 +60,7 @@ public class Drag_and_Drop : MonoBehaviour
             Room_block.GetComponent<Destroy_Room>().Room_height = Room_height;
             Room_block.GetComponent<Destroy_Room>().Room_length = Room_length;
             Room_block.GetComponent<Destroy_Room>().level_information = level_information;
+
             level_information.GetComponent<Level_information>().buildings.room_amount++;
             level_information.GetComponent<Level_information>().buildings.rooms.Add(Room_block);
             // do build animations
