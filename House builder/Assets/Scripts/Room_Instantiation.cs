@@ -16,7 +16,7 @@ public class Room_Instantiation : MonoBehaviour
         col.isTrigger = true;
         //needs to ajust BoxCollider according to length and height
         //col.offset = new Vector2(0f,height/2);
-        // col.size = new Vector2(length, height);
+        // col.size = new Vector2(length-0.03f, height-0.03f);
         Drag_and_Drop DaD = room.AddComponent<Drag_and_Drop>();
         DaD.Room_block = this.gameObject;
        // DaD.Room_height = height;

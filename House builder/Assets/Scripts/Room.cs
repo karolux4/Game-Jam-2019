@@ -30,3 +30,21 @@ public enum RoomType
     Bathroom,
     Storage
     }
+public enum BaseCost
+{
+    Kitchen=1200,
+    LivingRoom=1500,
+    Bedroom=1400,
+    Garage=800,
+    Bathroom=1000,
+    Storage=500
+}
+public enum BaseSecurity
+{
+    Kitchen = 25,
+    LivingRoom = 30,
+    Bedroom = 30,
+    Garage = 20,
+    Bathroom = 25,
+    Storage = 20
+}
