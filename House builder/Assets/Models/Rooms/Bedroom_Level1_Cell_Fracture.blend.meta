@@ -1,67 +1,70 @@
 fileFormatVersion: 2
-guid: 42c84538fd8a06c41beea99900c67d3f
+guid: 1ce84a5b8071f8c4898cbba2ae2038f3
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Bath
+    100000: Bed_004
     100002: //RootNode
-    100004: Cabinet
-    100006: Carpet
-    100008: Room
-    100010: Toilet
-    400000: Bath
+    100004: Carpet
+    100006: DrawerBase
+    100008: Lamp
+    100010: Lamp_001
+    100012: Lamp_stand
+    100014: Overhead_lamp
+    100016: Plane
+    100018: Room
+    100020: Wardrobe
+    400000: Bed_004
     400002: //RootNode
-    400004: Cabinet
-    400006: Carpet
-    400008: Room
-    400010: Toilet
-    2100000: Material_room
-    2100002: Material_bath
-    2100004: Material_toilet
-    2100006: Material_Carpet
-    2100008: Material_bath_cabinet
-    2300000: Bath
-    2300002: Cabinet
-    2300004: Carpet
-    2300006: Room
-    2300008: Toilet
-    3300000: Bath
-    3300002: Cabinet
-    3300004: Carpet
-    3300006: Room
-    3300008: Toilet
-    4300000: Room
-    4300002: Bath
-    4300004: Toilet
-    4300006: Carpet
-    4300008: Cabinet
-    2186277476908879412: ImportLogs
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material_Carpet
-    second: {fileID: 2100000, guid: a306633bf21529f4c8c0efc4a68b9472, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material_bath
-    second: {fileID: 2100000, guid: e58026fb22e42114d88c20d8d388268a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material_bath_cabinet
-    second: {fileID: 2100000, guid: 94a4c73925bec2447bab0f490741b818, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material_room
-    second: {fileID: 2100000, guid: b7e6dc18d8b304c4b83bb3515a39df16, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material_toilet
-    second: {fileID: 2100000, guid: e58026fb22e42114d88c20d8d388268a, type: 2}
+    400004: Carpet
+    400006: DrawerBase
+    400008: Lamp
+    400010: Lamp_001
+    400012: Lamp_stand
+    400014: Overhead_lamp
+    400016: Plane
+    400018: Room
+    400020: Wardrobe
+    2100000: Material_Cabinet
+    2100002: Material_room
+    2100004: Material_Carpet
+    2100006: Material_wardrobe
+    2100008: Material_0
+    2100010: Material_lamp
+    2100012: Material_Bed_001
+    2300000: Bed_004
+    2300002: Carpet
+    2300004: DrawerBase
+    2300006: Lamp
+    2300008: Lamp_001
+    2300010: Lamp_stand
+    2300012: Overhead_lamp
+    2300014: Plane
+    2300016: Room
+    2300018: Wardrobe
+    3300000: Bed_004
+    3300002: Carpet
+    3300004: DrawerBase
+    3300006: Lamp
+    3300008: Lamp_001
+    3300010: Lamp_stand
+    3300012: Overhead_lamp
+    3300014: Plane
+    3300016: Room
+    3300018: Wardrobe
+    4300000: DrawerBase
+    4300002: Plane
+    4300004: Carpet
+    4300006: Wardrobe
+    4300008: Lamp_stand
+    4300010: Overhead_lamp
+    4300012: Room
+    4300014: Bed_004
+    4300016: Lamp
+    4300018: Lamp_001
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -92,7 +95,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.25
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -114,7 +117,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -141,7 +144,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

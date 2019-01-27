@@ -50,7 +50,32 @@ ModelImporter:
     4300010: Lamp
     4300012: Cylinder
     4300014: Cylinder.001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handles
+    second: {fileID: 2100000, guid: 3c889b2ab26df2148a995b9e79a17ed7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 0fc9d2556630a904e87677525932016d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_Chair
+    second: {fileID: 2100000, guid: 6ce80a9bd322f8b48a4dab3e0c3bed29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_room
+    second: {fileID: 2100000, guid: a8cc70e3188fc984e83fb3c34a4fdb8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_wardrobe
+    second: {fileID: 2100000, guid: 3c889b2ab26df2148a995b9e79a17ed7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -81,7 +106,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.25
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
