@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Level_information : MonoBehaviour
 {
@@ -8,6 +9,12 @@ public class Level_information : MonoBehaviour
     public int existing_budget { get; set; }
     public Existing_Buildings buildings { get; set; }
     public bool delete_mode { get; set; }
+    public GameObject Money;
+    public GameObject Time;
+    public GameObject Requirements;
+    public GameObject Safety;
+    public GameObject Quality;
+    private float total_time;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,12 +23,44 @@ public class Level_information : MonoBehaviour
         existing_budget = order.budget;
         buildings = new Existing_Buildings();
         delete_mode=false;
+        int amount = 0;
+        string require = "";
+        for(int i=0;i<order.requests.Count;i++)
+        {
+            amount += order.requests[i].roomAmount;
+            require += order.requests[i].type.ToString() + "\t" + order.requests[i].roomAmount+"\t\t";
+            if(i%2==1)
+            {
+                require += "\r\n";
+            }
+        }
+        Time.GetComponent<GameUIControllerScript>().timeLeft = amount * 20;
+        total_time = amount * 20;
+        Requirements.GetComponent<Text>().text = require;
+        Safety.GetComponent<Text>().text += " "+(order.safety*100).ToString("F0");
+        Quality.GetComponent<Text>().text += " "+order.quality.ToString("F1");
     }
 
     // Update is called once per frame
     void Update()
     {
+        Money.GetComponent<Text>().text = existing_budget.ToString();
+        if(CheckIfLevelIsCompleted())
+        {
+            Debug.Log("You win");
+        }
         //Debug.Log(existing_budget);
+    }
+    public void ChangeDeleteMode()
+    {
+        if(delete_mode)
+        {
+            delete_mode = false;
+        }
+        else
+        {
+            delete_mode = true;
+        }
     }
     private bool CheckIfLevelIsCompleted()
     {
@@ -64,7 +103,7 @@ public class Level_information : MonoBehaviour
         }
         room_coef += 0.1f * (6 - order.requests.Count);
         float money_coef = (existing_budget / order.budget) * 0.1f;
-        // float time_coef= (time_limit-time_spent)/time_limit*0.2f;
+        float time_coef= (total_time-(total_time-Time.GetComponent<GameUIControllerScript>().timeLeft))/total_time*0.2f;
         float overall_coef = safety_coef + quality_coef + room_coef + money_coef;// +time_coef;
         if (overall_coef >= 1)
         {

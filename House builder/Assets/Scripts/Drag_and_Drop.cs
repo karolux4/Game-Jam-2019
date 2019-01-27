@@ -57,7 +57,6 @@ public class Drag_and_Drop : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && allowed_to_place) // if left mouse button is pressed place an object
         {
-            Debug.Log("Placed");
             is_not_placed = false;
             Room_block.AddComponent<Destroy_Room>();
             Room_block.GetComponent<Destroy_Room>().Room_height = Room_height;

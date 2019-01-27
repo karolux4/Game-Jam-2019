@@ -31,13 +31,6 @@ public class Request_Randomizer : MonoBehaviour
         order.safety = Random.Range(0.3f, 0.75f);
         order.quality = Random.Range(1.25f, 2.75f);
         order.budget=Cash(order);
-        for (int i = 0; i < order.requests.Count; i++)
-        {
-            Debug.Log(order.requests[i].type + " " + order.requests[i].roomAmount);
-        }
-        Debug.Log((int)(order.safety * 100));
-        Debug.Log(order.quality.ToString("F1"));
-        Debug.Log(order.budget);
         return order;
     }
     private int Cash(Order order)
