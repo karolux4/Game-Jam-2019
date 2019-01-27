@@ -33,6 +33,7 @@ public class Destroy_Room : MonoBehaviour
                 {
                     level_information.GetComponent<Level_information>().buildings.room_amount--;
                     level_information.GetComponent<Level_information>().buildings.rooms.Remove(this.gameObject);
+                    level_information.GetComponent<Level_information>().existing_budget += this.gameObject.GetComponent<Room_info>().price;
                     Destroy(this.gameObject);
                 }
             }

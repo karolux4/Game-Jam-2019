@@ -7,7 +7,7 @@ public class Room_Instantiation : MonoBehaviour
     public GameObject Room_prefab;
     public GameObject Level_information;
     // Start is called before the first frame update
-    void Start()
+    public void Instantiate()
     {
         GameObject room = Instantiate(Room_prefab);
         //Rigidbody2D rd = room.AddComponent<Rigidbody2D>();

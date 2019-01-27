@@ -63,6 +63,7 @@ public class Drag_and_Drop : MonoBehaviour
 
             level_information.GetComponent<Level_information>().buildings.room_amount++;
             level_information.GetComponent<Level_information>().buildings.rooms.Add(Room_block);
+            level_information.GetComponent<Level_information>().existing_budget -= Room_block.GetComponent<Room_info>().price;
             // do build animations
             Cursor.visible = true;
         }

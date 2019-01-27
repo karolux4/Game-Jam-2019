@@ -21,7 +21,7 @@ public class Level_information : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CheckIfLevelIsCompleted();
+        //Debug.Log(existing_budget);
     }
     private bool CheckIfLevelIsCompleted()
     {
