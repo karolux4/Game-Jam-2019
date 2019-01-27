@@ -114,6 +114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Room_block: {fileID: 7283058108553268868}
   level_information: {fileID: 0}
+  DestroyedRoom: {fileID: 0}
   Room_length: 2
   Room_height: 1
 --- !u!1001 &7283058107926393464
@@ -133,7 +134,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 57a9a57e70bf3ae489d4a48818f34835, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 57a9a57e70bf3ae489d4a48818f34835, type: 3}
       propertyPath: m_LocalPosition.z

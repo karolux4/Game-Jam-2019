@@ -6,6 +6,7 @@ public class Drag_and_Drop : MonoBehaviour
 {
     public GameObject Room_block;
     public GameObject level_information;
+    public GameObject DestroyedRoom;
     public float Room_length;
     public float Room_height;
     private Vector3 prev_position;
@@ -62,7 +63,7 @@ public class Drag_and_Drop : MonoBehaviour
             Room_block.GetComponent<Destroy_Room>().Room_height = Room_height;
             Room_block.GetComponent<Destroy_Room>().Room_length = Room_length;
             Room_block.GetComponent<Destroy_Room>().level_information = level_information;
-
+            Room_block.GetComponent<Destroy_Room>().DestroyedRoom = DestroyedRoom;
             level_information.GetComponent<Level_information>().buildings.room_amount++;
             level_information.GetComponent<Level_information>().buildings.rooms.Add(Room_block);
             level_information.GetComponent<Level_information>().existing_budget -= Room_block.GetComponent<Room_info>().price;
@@ -85,10 +86,13 @@ public class Drag_and_Drop : MonoBehaviour
         RaycastHit2D hit;
         int layer_mask = LayerMask.GetMask("Rooms", "Ground");
         Vector3 start = Room_block.transform.position - new Vector3(0f, Room_height * 0.5f, 0f);
+        if (Room_length == 2)
+        {
+            start += new Vector3(0f,0.1f,0f);
+        }
         hit = Physics2D.CircleCast(start,0.3f, Vector2.down, Mathf.Infinity, layer_mask);
         if ((hit.distance < 0.1f)&&(hit.collider!=null))
         {
-             //Debug.Log(hit.collider.name+" "+hit.distance);
             // Debug.Log("Not Height");
             if (!trigerrered)
             {
@@ -119,19 +123,19 @@ public class Drag_and_Drop : MonoBehaviour
     {
         if (x >= 0)
         {
-            x = (int)x + 0.5f * ((Room_length ) % 2);
+            x = (int)x+ 0.5f;
         }
         else
         {
-            x = Mathf.Sign(x) * (Mathf.Abs((int)x) + 0.5f * ((Room_length) % 2));
+            x = Mathf.Sign(x) * (Mathf.Abs((int)x) + 0.5f);
         }
         if (y >= 0)
         {
-            y = (int)y;// + 0.5f*(Room_height)%2;
+            y = (int)y + 0.6f*((Room_length+1)%2);
         }
         else
         {
-            y = Mathf.Sign(y) * ((int)Mathf.Abs(y));
+            y = Mathf.Sign(y) * ((int)Mathf.Abs(y) + 0.4f * ((Room_length + 1) % 2));
         }
     }
 }

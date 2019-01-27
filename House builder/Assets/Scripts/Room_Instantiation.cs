@@ -5,6 +5,7 @@ using UnityEngine;
 public class Room_Instantiation : MonoBehaviour
 {
     public GameObject Room_prefab;
+    public GameObject DestroyedRoom;
     public GameObject Level_information;
     // Start is called before the first frame update
     public void Instantiate()
@@ -12,6 +13,8 @@ public class Room_Instantiation : MonoBehaviour
         if (Room_prefab.GetComponent<Room_info>().price <= Level_information.GetComponent<Level_information>().existing_budget)
         {
             GameObject room = Instantiate(Room_prefab);
+            room.layer = 10;
+            room.GetComponent<Drag_and_Drop>().DestroyedRoom = DestroyedRoom;
             //Rigidbody2D rd = room.AddComponent<Rigidbody2D>();
             //rd.bodyType = RigidbodyType2D.Kinematic;
             //BoxCollider2D col = room.AddComponent<BoxCollider2D>();

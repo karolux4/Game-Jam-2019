@@ -6,6 +6,7 @@ public class Destroy_Room : MonoBehaviour
 {
     //public bool DeleteIsOn { get; set; }
     public GameObject level_information;
+    public GameObject DestroyedRoom;
     public float Room_length;
     public float Room_height;
     // Start is called before the first frame update
@@ -35,13 +36,16 @@ public class Destroy_Room : MonoBehaviour
                     level_information.GetComponent<Level_information>().buildings.rooms.Remove(this.gameObject);
                     level_information.GetComponent<Level_information>().existing_budget += this.gameObject.GetComponent<Room_info>().price;
                     Destroy(this.gameObject);
+                    Instantiate(DestroyedRoom);
                 }
             }
             else
             {
                 level_information.GetComponent<Level_information>().buildings.room_amount--;
                 level_information.GetComponent<Level_information>().buildings.rooms.Remove(this.gameObject);
+                level_information.GetComponent<Level_information>().existing_budget += this.gameObject.GetComponent<Room_info>().price;
                 Destroy(this.gameObject);
+                Instantiate(DestroyedRoom);
             }
         }
     }

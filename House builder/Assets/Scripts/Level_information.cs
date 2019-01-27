@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Text;
 
 public class Level_information : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class Level_information : MonoBehaviour
     public GameObject Requirements;
     public GameObject Safety;
     public GameObject Quality;
+    public GameObject EndText;
+    public GameObject Win;
     private float total_time;
     // Start is called before the first frame update
     void Start()
@@ -28,7 +31,7 @@ public class Level_information : MonoBehaviour
         for(int i=0;i<order.requests.Count;i++)
         {
             amount += order.requests[i].roomAmount;
-            require += order.requests[i].type.ToString() + "\t" + order.requests[i].roomAmount+"\t\t";
+            require += string.Format("{0,-20}\t{1,2} ",order.requests[i].type.ToString(),order.requests[i].roomAmount);
             if(i%2==1)
             {
                 require += "\r\n";
@@ -47,7 +50,9 @@ public class Level_information : MonoBehaviour
         Money.GetComponent<Text>().text = existing_budget.ToString();
         if(CheckIfLevelIsCompleted())
         {
-            Debug.Log("You win");
+            EndText.GetComponent<Text>().text = "You win";
+            Time.GetComponent<GameUIControllerScript>().gameFinished = true;
+            Instantiate(Win);
         }
         //Debug.Log(existing_budget);
     }
@@ -104,7 +109,7 @@ public class Level_information : MonoBehaviour
         room_coef += 0.1f * (6 - order.requests.Count);
         float money_coef = (existing_budget / order.budget) * 0.1f;
         float time_coef= (total_time-(total_time-Time.GetComponent<GameUIControllerScript>().timeLeft))/total_time*0.2f;
-        float overall_coef = safety_coef + quality_coef + room_coef + money_coef;// +time_coef;
+        float overall_coef = safety_coef + quality_coef + room_coef + money_coef+time_coef;
         if (overall_coef >= 1)
         {
             return true;
