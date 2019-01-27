@@ -19,10 +19,7 @@ public class Level_information : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        for(int i=0;i<buildings.rooms.Count;i++)
-        {
-            Debug.Log(buildings.rooms[i]);
-        }
+
     }
     private bool CheckIfLevelIsCompleted()
     {

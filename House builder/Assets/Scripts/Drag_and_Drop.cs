@@ -121,11 +121,11 @@ public class Drag_and_Drop : MonoBehaviour
         }
         if (y >= 0)
         {
-            y = (int)y + 0.5f*(Room_height)%2;
+            y = (int)y;// + 0.5f*(Room_height)%2;
         }
         else
         {
-            y = Mathf.Sign(y) * ((int)Mathf.Abs(y) + 0.5f * ((Room_height) % 2));
+            y = Mathf.Sign(y) * ((int)Mathf.Abs(y));
         }
     }
 }
