@@ -34,8 +34,10 @@ public class Drag_and_Drop : MonoBehaviour
     {
         float MouseX = Input.mousePosition.x;
         float MouseY = Input.mousePosition.y;
-        NormalizeMousePosition(ref MouseX, ref MouseY);
+        Vector3 MouseValues = Camera.main.ScreenToWorldPoint(Input.mousePosition);//NormalizeMousePosition(ref MouseX, ref MouseY);
         // snaping block to grid
+        MouseX = MouseValues.x;
+        MouseY = MouseValues.y;
         RoundValues(ref MouseX, ref MouseY); // rounding x and y values to nearest 0.5;
         if (prev_position != new Vector3(MouseX, MouseY, 0f)) //transition between two points
         {
@@ -44,17 +46,18 @@ public class Drag_and_Drop : MonoBehaviour
             StartCoroutine(MoveToPosition(Room_block.transform, destination, 0.1f));
         }
     }
-    private void NormalizeMousePosition(ref float MouseX, ref float MouseY)
+    /*private void NormalizeMousePosition(ref float MouseX, ref float MouseY)
     {
         float X = 17.8f;
         float Y = 10f;
         MouseX = (MouseX / Screen.width) * X - (float)X / (float)2;
         MouseY = (MouseY / Screen.height) * Y - (float)Y / (float)2;
-    }
+    }*/
     private void ObjectPlacement()
     {
         if (Input.GetMouseButtonDown(0) && allowed_to_place) // if left mouse button is pressed place an object
         {
+            Debug.Log("Placed");
             is_not_placed = false;
             Room_block.AddComponent<Destroy_Room>();
             Room_block.GetComponent<Destroy_Room>().Room_height = Room_height;
@@ -70,21 +73,23 @@ public class Drag_and_Drop : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
+       // Debug.Log("Trigerred");
         trigerrered = true;
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
+       // Debug.Log("Not Trigerred");
         trigerrered = false;
     }
     private void CheckForHeight()
     {
         RaycastHit2D hit;
         int layer_mask = LayerMask.GetMask("Rooms", "Ground");
-        Vector3 start = Room_block.transform.position - new Vector3(0f, (Room_height - 1) * 0.5f, 0f);
+        Vector3 start = Room_block.transform.position - new Vector3(0f, Room_height * 0.5f, 0f);
         hit = Physics2D.CircleCast(start,0.3f, Vector2.down, Mathf.Infinity, layer_mask);
         if ((hit.distance < 0.1f)&&(hit.collider!=null))
         {
-            // Debug.Log(hit.distance);
+             //Debug.Log(hit.collider.name+" "+hit.distance);
             // Debug.Log("Not Height");
             if (!trigerrered)
             {

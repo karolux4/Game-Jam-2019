@@ -21,6 +21,6 @@ public class Room_Instantiation : MonoBehaviour
         //DaD.Room_block = this.gameObject;
        // DaD.Room_height = height;
        // DaD.Room_length = length;
-        this.gameObject.GetComponent<Drag_and_Drop>().level_information = Level_information;
+        room.GetComponent<Drag_and_Drop>().level_information = Level_information;
     }
 }
