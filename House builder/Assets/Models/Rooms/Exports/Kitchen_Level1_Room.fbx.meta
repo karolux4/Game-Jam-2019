@@ -20,6 +20,10 @@ ModelImporter:
     2100000: Material_room
     2100002: Material
     2100004: Material_apple
+    2100006: Table_Square_Material
+    2100008: Plate_Material
+    2100010: Carpet_Material
+    2100012: Oven_Material
     2300000: Carpet
     2300002: Cube
     2300004: Cube.004
@@ -38,7 +42,37 @@ ModelImporter:
     4300006: Carpet
     4300008: Sphere
     4300010: Cube
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carpet_Material
+    second: {fileID: 2100000, guid: d6bb37df782752d408f7ed4e4758d20e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_apple
+    second: {fileID: 2100000, guid: 77f60f9af1a745d42804bb7ad8243f89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_room
+    second: {fileID: 2100000, guid: 0ae9979a575458f4d85d93dd6a238a46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oven_Material
+    second: {fileID: 2100000, guid: b4f3489f12fb4994b87e5b62212d2911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plate_Material
+    second: {fileID: 2100000, guid: f671e9b72e3280d4cb852a04e2f6ff59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Table_Square_Material
+    second: {fileID: 2100000, guid: 7e26cfe70d12101469df5d99bbcd80c3, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -69,7 +103,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.25
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
