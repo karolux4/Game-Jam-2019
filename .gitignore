@@ -35,3 +35,4 @@ sysinfo.txt
 *.apk
 *.unitypackage
 House builder/.vscode/settings.json
+House builder/Assets/Scenes/SampleScene.unity
