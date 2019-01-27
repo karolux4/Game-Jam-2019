@@ -3,6 +3,28 @@ guid: b66a0aab4a4606145994560d1c631c18
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: Cabinet
+    100002: Car
+    100004: //RootNode
+    100006: Room_Bordered_001
+    400000: Cabinet
+    400002: Car
+    400004: //RootNode
+    400006: Room_Bordered_001
+    2100000: Material_room
+    2100002: Material
+    2100004: Material_Cabinet
+    2300000: Cabinet
+    2300002: Car
+    2300004: Room_Bordered_001
+    3300000: Cabinet
+    3300002: Car
+    3300004: Room_Bordered_001
+    4300000: Room_Bordered_001
+    4300002: Car
+    4300004: Cabinet
+    7400000: Default Take
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -57,7 +79,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

@@ -3,6 +3,78 @@ guid: a814f92a88985244ab25dbeb73d20e7e
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: Bed_004
+    100002: //RootNode
+    100004: Cabinet
+    100006: Carpet
+    100008: Cylinder
+    100010: DrawerBase
+    100012: Lamp
+    100014: Lamp_001
+    100016: Lamp_stand
+    100018: Overhead_lamp
+    100020: Plane
+    100022: Room
+    100024: Wardrobe
+    400000: Bed_004
+    400002: //RootNode
+    400004: Cabinet
+    400006: Carpet
+    400008: Cylinder
+    400010: DrawerBase
+    400012: Lamp
+    400014: Lamp_001
+    400016: Lamp_stand
+    400018: Overhead_lamp
+    400020: Plane
+    400022: Room
+    400024: Wardrobe
+    2100000: Material_Cabinet_0
+    2100002: Material_room
+    2100004: Material_Carpet
+    2100006: Material_wardrobe
+    2100008: Material_0
+    2100010: Material_lamp_0
+    2100012: Material_Bed_001
+    2100014: Light_source
+    2300000: Bed_004
+    2300002: Cabinet
+    2300004: Carpet
+    2300006: Cylinder
+    2300008: DrawerBase
+    2300010: Lamp
+    2300012: Lamp_001
+    2300014: Lamp_stand
+    2300016: Overhead_lamp
+    2300018: Plane
+    2300020: Room
+    2300022: Wardrobe
+    3300000: Bed_004
+    3300002: Cabinet
+    3300004: Carpet
+    3300006: Cylinder
+    3300008: DrawerBase
+    3300010: Lamp
+    3300012: Lamp_001
+    3300014: Lamp_stand
+    3300016: Overhead_lamp
+    3300018: Plane
+    3300020: Room
+    3300022: Wardrobe
+    4300000: DrawerBase
+    4300002: Plane
+    4300004: Carpet
+    4300006: Wardrobe
+    4300008: Lamp_stand
+    4300010: Overhead_lamp
+    4300012: Room
+    4300014: Bed_004
+    4300016: Lamp
+    4300018: Lamp_001
+    4300020: Cabinet
+    4300022: Cylinder
+    7400000: Default Take
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -57,7 +129,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

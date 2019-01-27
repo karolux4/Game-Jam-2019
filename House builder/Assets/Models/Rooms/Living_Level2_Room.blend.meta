@@ -3,6 +3,101 @@ guid: ac7ce55297ff6b3428df3a2791dae226
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: Cube
+    100002: Cube_001
+    100004: Cube_002
+    100006: Cube_003
+    100008: Cube_004
+    100010: Cube_005
+    100012: Cube_006
+    100014: Cylinder_000
+    100016: Cylinder_001
+    100018: Cylinder_002
+    100020: Cylinder_003
+    100022: Cylinder_004
+    100024: Cylinder_005
+    100026: Handle_001
+    100028: Lamp
+    100030: //RootNode
+    100032: Room_Bordered_001
+    100034: Sphere
+    400000: Cube
+    400002: Cube_001
+    400004: Cube_002
+    400006: Cube_003
+    400008: Cube_004
+    400010: Cube_005
+    400012: Cube_006
+    400014: Cylinder_000
+    400016: Cylinder_001
+    400018: Cylinder_002
+    400020: Cylinder_003
+    400022: Cylinder_004
+    400024: Cylinder_005
+    400026: Handle_001
+    400028: Lamp
+    400030: //RootNode
+    400032: Room_Bordered_001
+    400034: Sphere
+    2100000: Material_room
+    2100002: Material
+    2100004: Handles
+    2100006: Material_wardrobe
+    2100008: Material_Chair
+    2100010: Material_apple
+    2300000: Cube
+    2300002: Cube_001
+    2300004: Cube_002
+    2300006: Cube_003
+    2300008: Cube_004
+    2300010: Cube_005
+    2300012: Cube_006
+    2300014: Cylinder_000
+    2300016: Cylinder_001
+    2300018: Cylinder_002
+    2300020: Cylinder_003
+    2300022: Cylinder_004
+    2300024: Cylinder_005
+    2300026: Handle_001
+    2300028: Lamp
+    2300030: Room_Bordered_001
+    2300032: Sphere
+    3300000: Cube
+    3300002: Cube_001
+    3300004: Cube_002
+    3300006: Cube_003
+    3300008: Cube_004
+    3300010: Cube_005
+    3300012: Cube_006
+    3300014: Cylinder_000
+    3300016: Cylinder_001
+    3300018: Cylinder_002
+    3300020: Cylinder_003
+    3300022: Cylinder_004
+    3300024: Cylinder_005
+    3300026: Handle_001
+    3300028: Lamp
+    3300030: Room_Bordered_001
+    3300032: Sphere
+    4300000: Room_Bordered_001
+    4300002: Cube
+    4300004: Cylinder_001
+    4300006: Cylinder_003
+    4300008: Cylinder_004
+    4300010: Cylinder_005
+    4300012: Cylinder_002
+    4300014: Handle_001
+    4300016: Cube_001
+    4300018: Cube_002
+    4300020: Cube_003
+    4300022: Cube_004
+    4300024: Cube_005
+    4300026: Lamp
+    4300028: Cylinder_000
+    4300030: Sphere
+    4300032: Cube_006
+    7400000: Default Take
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -57,7 +152,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

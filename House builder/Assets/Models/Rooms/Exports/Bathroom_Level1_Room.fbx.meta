@@ -42,7 +42,37 @@ ModelImporter:
     4300008: Cabinet
     4300010: Lamp
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 0fc9d2556630a904e87677525932016d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_Carpet
+    second: {fileID: 2100000, guid: a306633bf21529f4c8c0efc4a68b9472, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_bath
+    second: {fileID: 2100000, guid: e58026fb22e42114d88c20d8d388268a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_bath_cabinet
+    second: {fileID: 2100000, guid: 94a4c73925bec2447bab0f490741b818, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_room
+    second: {fileID: 2100000, guid: b7e6dc18d8b304c4b83bb3515a39df16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_toilet
+    second: {fileID: 2100000, guid: e58026fb22e42114d88c20d8d388268a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

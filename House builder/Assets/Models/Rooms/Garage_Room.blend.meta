@@ -3,6 +3,61 @@ guid: 63b4d829fee06dd408957fe22c707aa2
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: Cabinet
+    100002: Car
+    100004: Cube
+    100006: Cube_001
+    100008: Cube_002
+    100010: Cube_003
+    100012: Cube_004
+    100014: //RootNode
+    100016: Right_Wall
+    100018: Room_Bordered_001
+    400000: Cabinet
+    400002: Car
+    400004: Cube
+    400006: Cube_001
+    400008: Cube_002
+    400010: Cube_003
+    400012: Cube_004
+    400014: //RootNode
+    400016: Right_Wall
+    400018: Room_Bordered_001
+    2100000: Material_room
+    2100002: Material
+    2100004: Material_bath_cabinet
+    2100006: Material_Cabinet
+    2100008: Material_fridge
+    2100010: Material_patoriku
+    2300000: Cabinet
+    2300002: Car
+    2300004: Cube
+    2300006: Cube_001
+    2300008: Cube_002
+    2300010: Cube_003
+    2300012: Cube_004
+    2300014: Right_Wall
+    2300016: Room_Bordered_001
+    3300000: Cabinet
+    3300002: Car
+    3300004: Cube
+    3300006: Cube_001
+    3300008: Cube_002
+    3300010: Cube_003
+    3300012: Cube_004
+    3300014: Right_Wall
+    3300016: Room_Bordered_001
+    4300000: Right_Wall
+    4300002: Room_Bordered_001
+    4300004: Car
+    4300006: Cube
+    4300008: Cabinet
+    4300010: Cube_001
+    4300012: Cube_004
+    4300014: Cube_002
+    4300016: Cube_003
+    7400000: Default Take
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -57,7 +112,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

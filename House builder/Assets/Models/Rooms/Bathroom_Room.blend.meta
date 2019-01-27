@@ -10,6 +10,7 @@ ModelImporter:
     100008: Mat
     100010: Room
     100012: Toilet
+    100014: Cube
     400000: Bath
     400002: //RootNode
     400004: Cabinet
@@ -17,30 +18,35 @@ ModelImporter:
     400008: Mat
     400010: Room
     400012: Toilet
+    400014: Cube
     2100000: Material_room
     2100002: Material_bath
     2100004: Material_toilet
     2100006: Material_Carpet
     2100008: Material_Mat
     2100010: Material_bath_cabinet
+    2100012: Material
     2300000: Bath
     2300002: Cabinet
     2300004: Carpet
     2300006: Mat
     2300008: Room
     2300010: Toilet
+    2300012: Cube
     3300000: Bath
     3300002: Cabinet
     3300004: Carpet
     3300006: Mat
     3300008: Room
     3300010: Toilet
+    3300012: Cube
     4300000: Room
     4300002: Bath
     4300004: Toilet
     4300006: Carpet
     4300008: Mat
     4300010: Cabinet
+    4300012: Cube
     7400000: Default Take
     9500000: //RootNode
     2186277476908879412: ImportLogs

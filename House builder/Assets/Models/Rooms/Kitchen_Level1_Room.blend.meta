@@ -3,6 +3,60 @@ guid: 6e17db25704960749aaf696d73896ade
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: Cabinet_001
+    100002: Carpet
+    100004: Chair_002
+    100006: Cube
+    100008: Cube_004
+    100010: Cylinder_001
+    100012: //RootNode
+    100014: Plane
+    100016: Plane_001
+    100018: Sphere
+    400000: Cabinet_001
+    400002: Carpet
+    400004: Chair_002
+    400006: Cube
+    400008: Cube_004
+    400010: Cylinder_001
+    400012: //RootNode
+    400014: Plane
+    400016: Plane_001
+    400018: Sphere
+    2100000: Material_room
+    2100002: Material_003
+    2100004: Material_Chair
+    2100006: Material_0
+    2100008: Material_apple
+    2300000: Cabinet_001
+    2300002: Carpet
+    2300004: Chair_002
+    2300006: Cube
+    2300008: Cube_004
+    2300010: Cylinder_001
+    2300012: Plane
+    2300014: Plane_001
+    2300016: Sphere
+    3300000: Cabinet_001
+    3300002: Carpet
+    3300004: Chair_002
+    3300006: Cube
+    3300008: Cube_004
+    3300010: Cylinder_001
+    3300012: Plane
+    3300014: Plane_001
+    3300016: Sphere
+    4300000: Plane
+    4300002: Plane_001
+    4300004: Cabinet_001
+    4300006: Chair_002
+    4300008: Cube_004
+    4300010: Cylinder_001
+    4300012: Carpet
+    4300014: Sphere
+    4300016: Cube
+    7400000: Default Take
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -57,7 +111,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

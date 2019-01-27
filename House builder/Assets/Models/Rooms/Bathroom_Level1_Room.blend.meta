@@ -3,6 +3,46 @@ guid: 1de9f427726041043b30b69501723656
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: Bath
+    100002: //RootNode
+    100004: Cabinet
+    100006: Carpet
+    100008: Lamp
+    100010: Room
+    100012: Toilet
+    400000: Bath
+    400002: //RootNode
+    400004: Cabinet
+    400006: Carpet
+    400008: Lamp
+    400010: Room
+    400012: Toilet
+    2100000: Material_room
+    2100002: Material_bath
+    2100004: Material_toilet
+    2100006: Material_Carpet
+    2100008: Material_bath_cabinet
+    2100010: Material
+    2300000: Bath
+    2300002: Cabinet
+    2300004: Carpet
+    2300006: Lamp
+    2300008: Room
+    2300010: Toilet
+    3300000: Bath
+    3300002: Cabinet
+    3300004: Carpet
+    3300006: Lamp
+    3300008: Room
+    3300010: Toilet
+    4300000: Room
+    4300002: Bath
+    4300004: Toilet
+    4300006: Carpet
+    4300008: Cabinet
+    4300010: Lamp
+    7400000: Default Take
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -57,7 +97,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

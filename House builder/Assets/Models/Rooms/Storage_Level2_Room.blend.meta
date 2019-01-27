@@ -3,6 +3,78 @@ guid: 79eb9571165ecab43946910b645154b4
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: Cube
+    100002: Cube_001
+    100004: Cylinder
+    100006: Cylinder_001
+    100008: Cylinder_002
+    100010: Cylinder_003
+    100012: Cylinder_004
+    100014: Cylinder_005
+    100016: Cylinder_006
+    100018: Cylinder_007
+    100020: Cylinder_008
+    100022: Part_Bucket_001
+    100024: Room_Bordered
+    100026: //RootNode
+    400000: Cube
+    400002: Cube_001
+    400004: Cylinder
+    400006: Cylinder_001
+    400008: Cylinder_002
+    400010: Cylinder_003
+    400012: Cylinder_004
+    400014: Cylinder_005
+    400016: Cylinder_006
+    400018: Cylinder_007
+    400020: Cylinder_008
+    400022: Part_Bucket_001
+    400024: Room_Bordered
+    400026: //RootNode
+    2100000: Material_room
+    2100002: Material
+    2100004: Plankton_material
+    2300000: Cube
+    2300002: Cube_001
+    2300004: Cylinder
+    2300006: Cylinder_001
+    2300008: Cylinder_002
+    2300010: Cylinder_003
+    2300012: Cylinder_004
+    2300014: Cylinder_005
+    2300016: Cylinder_006
+    2300018: Cylinder_007
+    2300020: Cylinder_008
+    2300022: Part_Bucket_001
+    2300024: Room_Bordered
+    3300000: Cube
+    3300002: Cube_001
+    3300004: Cylinder
+    3300006: Cylinder_001
+    3300008: Cylinder_002
+    3300010: Cylinder_003
+    3300012: Cylinder_004
+    3300014: Cylinder_005
+    3300016: Cylinder_006
+    3300018: Cylinder_007
+    3300020: Cylinder_008
+    3300022: Part_Bucket_001
+    3300024: Room_Bordered
+    4300000: Room_Bordered
+    4300002: Cylinder
+    4300004: Cube
+    4300006: Cylinder_001
+    4300008: Part_Bucket_001
+    4300010: Cube_001
+    4300012: Cylinder_002
+    4300014: Cylinder_003
+    4300016: Cylinder_004
+    4300018: Cylinder_005
+    4300020: Cylinder_006
+    4300022: Cylinder_007
+    4300024: Cylinder_008
+    7400000: Default Take
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -57,7 +129,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

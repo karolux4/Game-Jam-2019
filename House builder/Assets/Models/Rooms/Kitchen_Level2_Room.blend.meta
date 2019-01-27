@@ -3,6 +3,81 @@ guid: 8f9973f3668783a4895b0206fbeba2c7
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: Cabinet_001
+    100002: Chair_002
+    100004: Cube_001
+    100006: Cube_002
+    100008: Cube_004
+    100010: Cube_005
+    100012: Cube_006
+    100014: Cylinder
+    100016: Cylinder_001
+    100018: //RootNode
+    100020: Plane
+    100022: Plane_001
+    100024: Sphere_001
+    100026: Sphere_002
+    400000: Cabinet_001
+    400002: Chair_002
+    400004: Cube_001
+    400006: Cube_002
+    400008: Cube_004
+    400010: Cube_005
+    400012: Cube_006
+    400014: Cylinder
+    400016: Cylinder_001
+    400018: //RootNode
+    400020: Plane
+    400022: Plane_001
+    400024: Sphere_001
+    400026: Sphere_002
+    2100000: Material_room
+    2100002: Material_003
+    2100004: Material_Chair_0
+    2100006: Material_fridge
+    2100008: Material
+    2100010: Material_apple
+    2300000: Cabinet_001
+    2300002: Chair_002
+    2300004: Cube_001
+    2300006: Cube_002
+    2300008: Cube_004
+    2300010: Cube_005
+    2300012: Cube_006
+    2300014: Cylinder
+    2300016: Cylinder_001
+    2300018: Plane
+    2300020: Plane_001
+    2300022: Sphere_001
+    2300024: Sphere_002
+    3300000: Cabinet_001
+    3300002: Chair_002
+    3300004: Cube_001
+    3300006: Cube_002
+    3300008: Cube_004
+    3300010: Cube_005
+    3300012: Cube_006
+    3300014: Cylinder
+    3300016: Cylinder_001
+    3300018: Plane
+    3300020: Plane_001
+    3300022: Sphere_001
+    3300024: Sphere_002
+    4300000: Plane
+    4300002: Plane_001
+    4300004: Cabinet_001
+    4300006: Chair_002
+    4300008: Cube_001
+    4300010: Cube_002
+    4300012: Cube_004
+    4300014: Cube_005
+    4300016: Cube_006
+    4300018: Sphere_001
+    4300020: Sphere_002
+    4300022: Cylinder
+    4300024: Cylinder_001
+    7400000: Default Take
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -57,7 +132,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

@@ -3,6 +3,64 @@ guid: 188699d0e869dbc4cb7e6033342881a9
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: Cabinet
+    100002: Carpet
+    100004: Cube
+    100006: Cube_001
+    100008: Cylinder
+    100010: Cylinder_001
+    100012: Cylinder_002
+    100014: Part_Bucket_000
+    100016: Part_Bucket_001
+    100018: Room_Bordered
+    100020: //RootNode
+    400000: Cabinet
+    400002: Carpet
+    400004: Cube
+    400006: Cube_001
+    400008: Cylinder
+    400010: Cylinder_001
+    400012: Cylinder_002
+    400014: Part_Bucket_000
+    400016: Part_Bucket_001
+    400018: Room_Bordered
+    400020: //RootNode
+    2100000: Material_room
+    2100002: Plankton_material
+    2100004: Material
+    2100006: Material_Cabinet
+    2300000: Cabinet
+    2300002: Carpet
+    2300004: Cube
+    2300006: Cube_001
+    2300008: Cylinder
+    2300010: Cylinder_001
+    2300012: Cylinder_002
+    2300014: Part_Bucket_000
+    2300016: Part_Bucket_001
+    2300018: Room_Bordered
+    3300000: Cabinet
+    3300002: Carpet
+    3300004: Cube
+    3300006: Cube_001
+    3300008: Cylinder
+    3300010: Cylinder_001
+    3300012: Cylinder_002
+    3300014: Part_Bucket_000
+    3300016: Part_Bucket_001
+    3300018: Room_Bordered
+    4300000: Room_Bordered
+    4300002: Part_Bucket_001
+    4300004: Cylinder
+    4300006: Carpet
+    4300008: Cube
+    4300010: Cylinder_001
+    4300012: Cylinder_002
+    4300014: Part_Bucket_000
+    4300016: Cube_001
+    4300018: Cabinet
+    7400000: Default Take
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -57,7 +115,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

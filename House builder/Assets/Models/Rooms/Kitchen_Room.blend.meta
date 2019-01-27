@@ -22,6 +22,10 @@ ModelImporter:
     100032: Sphere
     100034: Sphere_001
     100036: Sphere_002
+    100038: Cube_001
+    100040: Cube_004
+    100042: Cube_006
+    100044: Cylinder_002
     400000: Cabinet
     400002: Cabinet_001
     400004: Cabinet_002
@@ -41,6 +45,10 @@ ModelImporter:
     400032: Sphere
     400034: Sphere_001
     400036: Sphere_002
+    400038: Cube_001
+    400040: Cube_004
+    400042: Cube_006
+    400044: Cylinder_002
     2100000: Material_room
     2100002: Material_fridge
     2100004: Material_Chair
@@ -54,6 +62,8 @@ ModelImporter:
     2100020: Material_apple_002
     2100022: Material_004
     2100024: Material_005
+    2100026: Material_Chair_0
+    2100028: Material_Cabinet
     2300000: Cabinet
     2300002: Cabinet_001
     2300004: Cabinet_002
@@ -72,6 +82,10 @@ ModelImporter:
     2300030: Sphere
     2300032: Sphere_001
     2300034: Sphere_002
+    2300036: Cube_001
+    2300038: Cube_004
+    2300040: Cube_006
+    2300042: Cylinder_002
     3300000: Cabinet
     3300002: Cabinet_001
     3300004: Cabinet_002
@@ -90,6 +104,10 @@ ModelImporter:
     3300030: Sphere
     3300032: Sphere_001
     3300034: Sphere_002
+    3300036: Cube_001
+    3300038: Cube_004
+    3300040: Cube_006
+    3300042: Cylinder_002
     4300000: Plane
     4300002: Cube
     4300004: Chair_001
@@ -108,6 +126,10 @@ ModelImporter:
     4300030: Chair_002
     4300032: Oven
     4300034: Cabinet_002
+    4300036: Cube_001
+    4300038: Cube_004
+    4300040: Cube_006
+    4300042: Cylinder_002
     7400000: Default Take
     9500000: //RootNode
     2186277476908879412: ImportLogs

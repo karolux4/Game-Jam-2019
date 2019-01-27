@@ -3,6 +3,57 @@ guid: 788c7dd9f76751c4fad1dc7eaac9fca2
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: Carpet
+    100002: DrawerBase
+    100004: Lamp
+    100006: Lamp_stand
+    100008: Overhead_lamp
+    100010: //RootNode
+    100012: Plane_001
+    100014: Room
+    100016: Wardrobe
+    400000: Carpet
+    400002: DrawerBase
+    400004: Lamp
+    400006: Lamp_stand
+    400008: Overhead_lamp
+    400010: //RootNode
+    400012: Plane_001
+    400014: Room
+    400016: Wardrobe
+    2100000: unnamed
+    2100002: Material_Cabinet
+    2100004: Material_Carpet
+    2100006: Material_wardrobe
+    2100008: Material
+    2100010: Material_lamp
+    2100012: Material_room
+    2300000: Carpet
+    2300002: DrawerBase
+    2300004: Lamp
+    2300006: Lamp_stand
+    2300008: Overhead_lamp
+    2300010: Plane_001
+    2300012: Room
+    2300014: Wardrobe
+    3300000: Carpet
+    3300002: DrawerBase
+    3300004: Lamp
+    3300006: Lamp_stand
+    3300008: Overhead_lamp
+    3300010: Plane_001
+    3300012: Room
+    3300014: Wardrobe
+    4300000: Plane_001
+    4300002: DrawerBase
+    4300004: Carpet
+    4300006: Wardrobe
+    4300008: Lamp_stand
+    4300010: Overhead_lamp
+    4300012: Room
+    4300014: Lamp
+    7400000: Default Take
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -57,7 +108,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
